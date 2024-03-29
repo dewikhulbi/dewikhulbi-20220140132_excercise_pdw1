@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Budaya Jawa</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/39/14/fe/3914fe0545c895f1c57649d1df053f04.jpg" alt="Wayang Kulit">
+                <div class="text">
+                    <h1>Wayang Kulit</h1>
+                    <p>Wayang kulit adalah seni pertunjukan tradisional Indonesia yang kaya akan budaya dan sejarah.</p>
+                    <!-- Tombol untuk membuka halaman "wayangkulit.html" -->
+                    <button onclick="openPageAndAlert('wayangkulit.html')">Buka Halaman Wayang Kulit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="waktu"></div>
+    <div class="container">
+        <div class="content">
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/8b/d5/c1/8bd5c18ad6cfb651c5c6f0f024fcf0f9.jpg" alt="Lengger">
+                <div class="text">
+                    <h2>Lengger</h2>
+                    <p>Lengger adalah salah satu seni tari tradisional Jawa yang menakjubkan dan penuh warna.</p>
+                    <!-- Tombol untuk membuka halaman "lengger.html" -->
+                    <button onclick="openPageAndAlert('lengger.html')">Buka Halaman Lengger</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--untuk membuka halaman -->
+    <script>
+        function openPageAndAlert(url) {
+            window.location.href = url; // Mengarahkan ke halaman dengan URL yang diberikan
+            alert("Klik ok untuk memasuki halaman selanjutnya!"); // Menampilkan alert
+        }
+    </script>
+     <script src="./script/main.js"></script>
+</body>
+</html>

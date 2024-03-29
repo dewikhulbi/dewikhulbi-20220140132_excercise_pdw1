@@ -1,0 +1,122 @@
+/* Reset CSS untuk menghilangkan margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk body */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('https://i.pinimg.com/736x/35/5c/00/355c00358666b477b0b07c7d672bfc3b.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Styling untuk container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    animation: fadeInUp 1s ease forwards; /* Animasi fadeInUp */
+}
+
+/* Animasi fadeInUp */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Styling untuk content */
+.content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Styling untuk tombol */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4b8f4b; /* Warna background button */
+    color: rgb(22, 21, 21);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transisi saat hover */
+}
+
+button:hover {
+    background-color: #042f44; /* ubah warna saat hover */
+}
+
+/* Menambahkan styling khusus untuk halaman "Wayang Kulit" dan "Lengger" */
+body {
+    background-color: #061329; /* Warna latar belakang */
+    color: #fff; /* Warna teks */
+    font-family: Arial, sans-serif; /* Font family */
+    padding: 20px; /* Padding */
+}
+
+.container {
+    display: flex; /* Tambahkan */
+    flex-wrap: wrap; /* Tambahkan */
+    justify-content: normal; /* Tambahkan */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    animation: fadeInUp 3s ease forwards;
+}
+
+.card {
+    flex: 1; /* Tambahkan */
+    width: 300px; /* Atur lebar kartu */
+    margin: 0 10px 20px; /* Beri margin antara kartu */
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(63, 57, 57, 0.8);
+    box-shadow: 0 0 20px rgba(242, 242, 242, 0.5);
+}
+
+.card img {
+    width: 100%; /* Lebar gambar */
+    border-radius: 10px; /* Border radius */
+    margin-bottom: 20px; /* Margin bawah */
+}
+
+.text h1 {
+    color: #ffa931; /* Warna judul */
+    font-size: 24px; /* Ukuran font judul */
+    margin-bottom: 10px; /* Margin bawah */
+}
+
+.text h2 {
+    color: #ffa931; /* Warna judul */
+    font-size: 24px; /* Ukuran font judul */
+    margin-bottom: 10px; /* Margin bawah */
+}
+
+.text p {
+    font-size: 18px; /* Ukuran font paragraf */
+    line-height: 1.6; /* Line height */
+    margin-bottom: 20px; /* Margin bawah */
+}
